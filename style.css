@@ -1,0 +1,163 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0;
+	padding:0;
+}
+.clearfix{
+	clear:both;
+}
+#header{
+	background:#666;
+	width:100%;
+	/*height:250px;*/
+}
+.Logo{
+	width:25%;
+	margin:1.5% 1.5% 0 1.5%;
+	float:left;
+}
+.Logo img{
+	width:250px;
+	height:auto;
+	
+}
+.socialnav{
+	/*width:25%;*/
+	margin:1.5% 1.5% 0.5% 1.5%;
+	padding:1.5%;
+	float:right;
+}
+.socialnav ul{
+	display:inline-block;
+}
+.socialnav ul li{
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:14px;
+	display:inline;
+	padding:5px;
+}
+.socialnav ul li a{
+	text-transform:uppercase;
+	text-decoration:none;
+	color:#FFF;
+}
+.MainNav{
+	width:100%;
+	float:left;
+	height:50px;
+	background:#999;
+}
+.MainNav ul{
+	display:inline-block;
+	margin:15px 15px 15px 82px;
+	text-align:center;
+	border-radius:5px;
+}
+.MainNav ul li{
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:18px;
+	display:inline;
+	padding:5px;
+	line-height:21px;
+	border-radius:5px;
+}
+.MainNav ul li:hover{
+	background:#FFF;
+}
+.MainNav ul li a{
+	text-transform:uppercase;
+	text-decoration:none;
+	color:#FFF;
+}
+.MainNav ul li a:hover{
+	color:#333;
+}
+#maincontent{
+	width:100%;
+	background-color:#fbfbfb;
+}
+.slider{
+	width:100%;
+}
+.slider img{
+	width:100%;
+	height:400px;
+}
+.wrapper{
+	width:85%;
+	margin:1.5% auto;
+	height:400px;
+}
+
+.col1, .col2, .col3{
+	width:30%;
+	margin:0 0.3%;
+	padding:15px;
+	float:left;
+	background:#fff;
+	box-shadow:1px 1px 5px #333;
+}
+.col1 img{
+	width:100%;
+	height:190px;
+}
+.col2 img{
+	width:100%;
+	height:190px;
+}
+.col3 img{
+	width:100%;
+	height:190px;
+}
+.col1, .col2, .col3 p{
+	text-align:justify;
+}
+.button{
+	background:#39F;
+	color:#fff;
+	font-family:Tahoma, Geneva, sans-serif;
+	width:35%;
+	float:right;
+	border-radius:5px;
+	padding:5px;
+	
+}
+.button a{
+	color:#fff;
+	text-decoration:none;
+}
+.button:hover{
+	background:#F90;
+}.button a:hover{
+	color:#633;
+}
+#footer{
+	width:100%;
+	background:#003;
+	box-shadow:1px 1px 5px #000;
+}
+.F_Col_1, .F_Col_2, .F_Col_3, .F_Col_4{
+	width:22%;
+	margin:10px;
+	padding:10px;
+	float:left;
+	text-align:justify;
+}
+.F_Col_1, .F_Col_2, .F_Col_3, .F_Col_4 p{
+	color:#fff;
+}
+.copy{
+	width:100%;
+	background:#fff;
+	height:50px;
+	float:left;
+}
+.copy p{
+	text-align:center;
+	color:#003;
+	font-weight:bold;
+	font-size:24px;
+}
+
